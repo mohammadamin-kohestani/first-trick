@@ -1,0 +1,937 @@
+.headtop {
+  width: 100%;
+  height: 120vh;
+  background-color: rgba(183, 9, 183, 0.83);
+  background-image: url(../img/10.png);
+  background-repeat: no-repeat;
+  background-position: 90% 90%;
+}
+.headtop > * {
+  width: 100%;
+}
+.headtop > header {
+  height: 15%;
+}
+.headtop > header > * {
+  height: 100%;
+  padding: 0 24px;
+}
+.headtop > header > figure,
+.headtop > header > div {
+  width: 25%;
+}
+.headtop > header > nav {
+  width: 50%;
+}
+.headtop > header > nav > ul {
+  width: 100%;
+  height: 100%;
+  margin-left: -130px;
+}
+.headtop > header > nav > ul > li {
+  height: 100%;
+  margin: 0 15px;
+  align-items: center;
+  display: flex;
+}
+.headtop > header > nav > ul > li > a {
+  display: flex;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: white;
+}
+.headtop > header > nav > ul > li > a:hover {
+  color: #ffa737;
+  transition: 0.4s;
+}
+.headtop > header > nav > ul > li > a > strong {
+  color: orange;
+  border: 1px solid rgba(255, 168, 55, 0.8705882353);
+  border-radius: 4px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  transform: translateY(-10px);
+  font-size: 11px;
+  padding: 5px;
+  align-items: center;
+}
+.headtop > header > figure {
+  align-items: center;
+  justify-content: start;
+}
+.headtop > header > figure > img {
+  height: 35%;
+}
+.headtop > header > div {
+  justify-content: flex-end;
+  align-items: center;
+}
+.headtop > header > div > a {
+  width: 70%;
+  height: 40px;
+  background-color: #ffa737;
+  color: white;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  justify-content: center;
+  font-size: 13px;
+}
+.headtop > header > div > a:hover {
+  background-color: #ffaf2d;
+}
+.headtop > div {
+  justify-content: start;
+  align-items: center;
+  height: 85%;
+}
+.headtop > div > article {
+  padding-left: 24px;
+  width: 40%;
+  min-height: 50px;
+}
+.headtop > div > article > * {
+  color: white;
+  width: 100%;
+}
+.headtop > div > article > h1 {
+  font-size: 60px;
+  text-transform: capitalize;
+}
+.headtop > div > article > p {
+  margin: 30px 0;
+  font-size: 20px;
+}
+.headtop > div > article > div {
+  justify-content: flex-start;
+}
+.headtop > div > article > div > a {
+  display: flex;
+  text-transform: uppercase;
+  width: auto;
+  padding: 0 20px;
+  height: 40px;
+  border-radius: 50px;
+  font-size: 12px;
+  justify-content: center;
+  align-items: center;
+}
+.headtop > div > article > div > a:nth-of-type(1) {
+  background-color: rgba(255, 168, 55, 0.8823529412);
+}
+.headtop > div > article > div > a:nth-of-type(1):hover {
+  background-color: #ffb637;
+}
+.headtop > div > article > div > a:nth-of-type(2) {
+  background-color: rgb(32, 142, 238);
+  margin-left: 20px;
+}
+.headtop > div > article > div > a:nth-of-type(2):hover {
+  background-color: rgb(32, 183, 238);
+}
+
+.para {
+  justify-content: center;
+  margin: 100px 0;
+  width: 100%;
+}
+.para > div {
+  width: 50%;
+}
+.para > div > * {
+  text-align: center;
+  margin: 30px 0;
+}
+.para > div h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+.para > div > p {
+  color: rgb(36, 35, 35);
+  font-size: 20px;
+}
+
+.get {
+  background-color: rgb(244, 240, 240);
+  width: 100%;
+}
+.get > .row {
+  justify-content: space-evenly;
+  width: 100%;
+}
+.get > .row > article {
+  width: 300px;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 0;
+}
+.get > .row > article > * {
+  margin: 10px 0;
+  width: 100%;
+}
+.get > .row > article > h3 {
+  -moz-text-align-last: center;
+       text-align-last: center;
+  font-size: 30px;
+}
+.get > .row > article p {
+  font-size: 15px;
+  text-align: center;
+  color: rgb(124, 121, 121);
+}
+.get > .row > article > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.get > .row > article > div > div {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.get > .row > article > div > div:hover > i:nth-of-type(1) {
+  left: 0;
+  transition: 0.4s;
+}
+.get > .row > article > div > div:hover > i:nth-of-type(2) {
+  left: 70px;
+  transition: 0.4s;
+}
+.get > .row > article > div > div > i {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-size: 45px;
+  justify-content: center;
+  align-items: center;
+}
+.get > .row > article > div > div > i:nth-of-type(1) {
+  left: -70px;
+}
+.get > .row > article > div > div > i:nth-of-type(2) {
+  left: 0;
+}
+.get > .row > figure {
+  width: 100%;
+}
+.get > .row > figure > img {
+  width: 100%;
+}
+
+.para1 {
+  width: 100%;
+  height: 150vh;
+  background-color: #000c47;
+  justify-content: center;
+  margin-top: -15px;
+}
+.para1 > .para2 {
+  width: 50%;
+  height: 50px;
+  justify-content: center;
+  margin: 100px 0;
+}
+.para1 > .para2 > * {
+  align-items: center;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+.para1 > .para2 > h3 {
+  font-size: 30px;
+  text-transform: lowercase;
+}
+.para1 > .para2 > p {
+  font-size: 20px;
+}
+.para1 > .para3 {
+  display: flex;
+  width: 100%;
+  height: 45%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.para1 > .para3 > .para4 {
+  width: 300px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #001061;
+  padding: 20px;
+}
+.para1 > .para3 > .para4 > div {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid purple;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+.para1 > .para3 > .para4 > div:hover > i:nth-of-type(1) {
+  left: 0;
+  transition: 0.4s;
+}
+.para1 > .para3 > .para4 > div:hover > i:nth-of-type(2) {
+  left: 70px;
+  transition: 0.4s;
+}
+.para1 > .para3 > .para4 > div > i {
+  font-size: 50px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: orange;
+  flex-wrap: wrap;
+}
+.para1 > .para3 > .para4 > div > i:nth-of-type(1) {
+  left: -70px;
+}
+.para1 > .para3 > .para4 > div > i:nth-of-type(2) {
+  left: 0;
+}
+.para1 > .para3 > .para4 > * {
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.para1 > .para3 > .para4 > a {
+  border: 4px solid purple;
+  font-size: 15px;
+  border-radius: 50px;
+  padding: 10px;
+}
+.para1 > .para3 > .para4 > a:hover {
+  color: orange;
+}
+
+.para5 {
+  width: 100%;
+  height: 300px;
+  justify-content: center;
+}
+.para5 > div {
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.para5 > div > h4 {
+  display: flex;
+  font-size: 35px;
+  color: rgb(29, 27, 27);
+}
+.para5 > div > * {
+  text-align: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+.para5 > div > p {
+  font-size: 20px;
+  color: rgb(156, 151, 151);
+}
+
+.para6 {
+  width: 100%;
+  height: 135vh;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 40px;
+}
+.para6 > div {
+  width: 400px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+.para6 > div > * {
+  width: 100%;
+  height: 100%;
+}
+.para6 > div > a:hover:after {
+  background-color: linea;
+  display: flex;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-image: linear-gradient(45deg, rgb(222, 227, 228), rgb(158, 198, 219), rgb(58, 138, 243));
+}
+.para6 > div > a > figure {
+  width: 100%;
+  height: 100%;
+}
+.para6 > div > a > figure > img {
+  width: 100%;
+  height: 100%;
+}
+.para6 > a {
+  width: 100%;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.para6 > a > p {
+  display: flex;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: white;
+  background-color: orange;
+}
+.para6 > a > p:hover {
+  background-color: rgba(255, 166, 0, 0.862);
+}
+
+.para7 {
+  width: 100%;
+  height: 160vh;
+  justify-content: center;
+  background-image: url(../img/20.jpg);
+}
+.para7 > div {
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px 0;
+}
+.para7 > div > div {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.para7 > div > div > * {
+  color: white;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.para7 > div > div > P {
+  font-size: 22px;
+}
+.para7 > div > div > h4 {
+  font-size: 35px;
+}
+.para7 .para8 {
+  width: 100%;
+  height: 50%;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.para7 .para8 > div {
+  width: 300px;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: rgb(240, 240, 240);
+}
+.para7 .para8 > div > .para9 {
+  width: 95%;
+  height: 95%;
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+}
+.para7 .para8 > div > .para9 > .para10 {
+  width: 100%;
+  height: 80px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+.para7 .para8 > div > .para9 > .para10 > ul {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para7 .para8 > div > .para9 > .para10 > ul > p {
+  font-size: 30px;
+  color: #5772f8;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.para7 .para8 > div > .para9 .para11 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #f8f5f5;
+}
+.para7 .para8 > div > .para9 .para11 > li {
+  width: 50%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5772f8;
+  font-size: 30px;
+}
+.para7 .para8 > div > .para9 .para11 > li > * {
+  text-align: center;
+}
+.para7 .para8 > div > .para9 .para11 > li > p {
+  font-size: 50px;
+}
+.para7 .para8 > div > .para9 .para11 > li > p > sup {
+  font-size: 20px;
+}
+.para7 .para8 > div > .para9 .para11 > li > p > sub {
+  font-size: 20px;
+  margin-left: -35px;
+  color: gray;
+}
+.para7 .para8 > div > .para9 > .para12 {
+  width: 100%;
+  height: 220px;
+  display: flex;
+  cursor: pointer;
+}
+.para7 .para8 > div > .para9 > .para12 > li {
+  width: 100%;
+  height: 73px;
+  font-size: 20px;
+  color: rgb(129, 126, 126);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+}
+.para7 .para8 > div > .para9 > .para13 {
+  width: 100%;
+  height: 86px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f5f5;
+}
+.para7 .para8 > div > .para9 > .para13 > li {
+  width: 60%;
+  height: 50%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.para7 .para8 > div > .para9 > .para13 > li > a {
+  width: 100%;
+  height: 100%;
+  color: rgb(119, 115, 115);
+  border: 2px solid #f8f5f5;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 15px;
+  border-radius: 50px;
+}
+.para7 .para8 > div > .para9 > .para13 > li > a:hover {
+  color: rgb(9, 81, 163);
+  border-color: rgb(9, 81, 163);
+}
+
+.para14 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(235, 233, 233);
+  align-content: flex-start;
+}
+.para14 > ul {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  top: -20px;
+  text-align: center;
+  margin-top: 40px;
+}
+.para14 > ul > li {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.para14 > ul > li > h4 {
+  font-size: 30px;
+  color: rgb(31, 28, 28);
+  text-align: center;
+}
+.para14 > ul > li > p {
+  font-size: 20px;
+  color: gray;
+  text-align: center;
+}
+.para14 > .para15 {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.para14 > .para15 > * {
+  display: flex;
+  align-items: center;
+}
+.para14 > .para15 > ul {
+  width: 400px;
+  height: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.para14 > .para15 > ul > a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.para14 > .para15 > ul > a > figure {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  top: 0;
+}
+.para14 > .para15 > ul > a > figure > img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  bottom: 0px;
+  right: 0px;
+}
+.para14 > .para15 > ul > a > figure > img:hover {
+  width: 120%;
+  height: 120%;
+  bottom: -10%;
+  right: -10%;
+  transition: 1s;
+}
+
+.para16 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: -20px;
+  background-color: rgb(235, 233, 233);
+}
+.para16 > div {
+  margin-top: -200px;
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+}
+.para16 > div > a {
+  width: auto;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #ffa737;
+  font-size: 20px;
+}
+.para16 > div > ul {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  position: absolute;
+  margin-top: 40px;
+}
+.para16 > div > ul > p {
+  font-size: 17px;
+  text-align: center;
+  color: gray;
+}
+.para16 > ul {
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+  margin-top: 100px;
+  border-radius: 50px;
+  background-color: #ffa737;
+}
+.para16 > ul > a {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+.para17 {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  top: 0;
+}
+.para17 > div {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.para17 > div > ul {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para17 > div > ul > p {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #202020;
+}
+.para17 > .para18 {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -1px;
+}
+.para17 > .para18 > figure {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.para17 > .para18 > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100px;
+  display: flex;
+  position: absolute;
+  object-fit: cover;
+}
+.para17 > .para19 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para17 > .para19 > p {
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
+
+.para20 {
+  width: 100%;
+  height: 210px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.para20 > div {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.para21 {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+.para21 > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url(../img/28.jpg);
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  background-size: cover;
+}
+.para21 > div::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.596);
+  justify-content: center;
+}
+.para21 > div div {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: absolute;
+}
+.para21 > div div > * {
+  color: white;
+}
+.para21 > div div > h4 {
+  font-size: 30px;
+}
+.para21 > div div > p {
+  font-size: 20px;
+  text-align: center;
+}
+.para21 > div div > a {
+  background-color: #ffa737;
+  border-radius: 50px;
+  font-size: 15px;
+  padding: 10px;
+}
+.para21 > div div > a:hover {
+  background-color: rgba(255, 168, 55, 0.8196078431);
+}
+
+.para22 {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-content: space-evenly;
+  flex-wrap: wrap;
+}
+.para22 > figure {
+  width: 200px;
+  height: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.para22 > figure > img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.para23 {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para23 > ul {
+  display: flex;
+}
+.para23 > ul > li {
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para23 > ul > li > a {
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: #fbc17b;
+}
+.para23 > ul > li > a:hover {
+  color: orange;
+}
+.para23 > ul > li .para24 {
+  border: 1px solid #ffa737;
+  padding: 3px;
+  color: #feb27b;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transform: translateY(-5px);
+  font-size: 12px;
+  align-items: center;
+  margin-left: 7px;
+}
+
+P {
+  font-size: 13px;
+}
+P > a {
+  color: orange;
+}/*# sourceMappingURL=master.css.map */
